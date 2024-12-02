@@ -1,8 +1,20 @@
 import React, { useEffect, useState } from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
+import FAQS from './FAQS'
+import Homepage from "../pages/Homepage";
+
 
 function App() {
-  return <h1>Project Client</h1>;
+  return (
+        <>
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<Homepage/>}/>
+              <Route path="/faqs" element={<FAQS/>}/>
+            </Routes>
+          </BrowserRouter>
+        </>
+  );
 }
 
 export default App;
