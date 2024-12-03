@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black;
+}
+
+.footer-card{
+    height: 200px;
+}
+
+.footer-card a{
+    text-decoration: none;
+    color: rgb(32,27,27);
+}
+
+.footer h3{
+    padding-top: 5%;
+    padding-bottom: 12%;
+}
+.footer h4{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    color: rgb(129, 116, 116);
+    
+}

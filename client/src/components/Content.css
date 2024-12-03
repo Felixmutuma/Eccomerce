@@ -14,7 +14,7 @@
 }
 
 .content {
-    height: 2000px; /* Adds scrolling space */
+    height: 1800px; /* Adds scrolling space */
     padding: 20px;
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
@@ -33,6 +33,15 @@
     width: 150px;
     cursor: pointer;
     margin-top: 30px;
+    background: none;
+    
+}
+
+#btn1:hover{
+    color: white;
+    background-color: rgb(63, 184, 63);
+    transition: 0.6s ease;
+    border: 1px solid white;
 }
 
 .card-container{
@@ -58,4 +67,61 @@
     height: 40px;
     width: 100px;
     margin-bottom: 12px;
+}
+
+.hero-2 {
+    background-image: url('./images/img.jpeg'); /* Replace with your image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-attachment: fixed; /* Makes the image stay fixed */
+    background-position: center; /* Centers the image */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 5%;
+
+}
+
+.hero-2 h1{
+    
+    padding-left: 0;
+}
+#btn2{
+    margin: 5% 0;
+    border: 1px solid rgb(63, 184, 63);
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    color: white;
+    background: none;
+
+}
+
+#btn2:hover{
+    color: white;
+    background-color: rgb(63, 184, 63);
+    transition: 0.6s ease;
+    border: 1px solid white;
+    font-size: large;
+}
+.mytitle{
+    color: rgb(32, 27, 27);
+}
+
+.why-shop-with-us{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shop-container h3{
+    color: rgb(32, 27, 27);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.shop-container p{
+    color: rgb(32, 27, 27);
+}
+.shop-container img{
+    width: 200px;
 }

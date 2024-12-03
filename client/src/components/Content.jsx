@@ -1,7 +1,14 @@
 import React from "react";
 import './Content.css'
+import shipping from './images/shipping.jpeg'
+import bestPrice from './images/best-price.jpeg'
+import quality from './images/quality.jpeg'
+import secure from './images/secure.jpeg'
+
 
 function Content() {
+
+    
     return ( 
         <>
             <div className="hero">
@@ -34,6 +41,41 @@ function Content() {
 
                 </div>
                 
+             </div>
+             <div className="hero-2">
+                <div>
+                    <h1>Elevate Your Wardrobe, <br />Embrace Timeless Style!</h1>
+                    <h4>Explore our collections today and experience the joy of fashion. <br />Shop now for the epitome  of chic sophistication!</h4>
+                    <button id="btn2">SHOP NOW</button>
+                </div>
+             </div>
+             <h1 className="mytitle">Why Shop with Us</h1>
+             <div className="why-shop-with-us">
+                
+                <div className="shop-container">
+                    <img src={shipping} alt="img1" />
+                    <h3>Free Shipping</h3>
+                    <p>Shopping with no extra charges – <br />savor the liberty of complimentary shipping <br /> on every order.</p>
+                </div>
+
+                <div className="shop-container">
+                    <img src={quality} alt="img1" />
+                    <h3>Quality Products</h3>
+                    <p>Short description or details about the above</p>
+                </div>
+
+                <div className="shop-container">
+                    <img src={secure} alt="img1" />
+                    <h3>Secure Payments</h3>
+                    <p>Shop with confidence knowing <br /> that your transactions are safeguarded.</p>
+                </div>
+
+                <div className="shop-container">
+                    <img src={bestPrice} alt="img1" />
+                    <h3>Affordable Prices</h3>
+                    <p>Short description or details about the above</p>
+                </div>
+
              </div>
             </div>
         </>
